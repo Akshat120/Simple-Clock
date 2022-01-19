@@ -14,8 +14,8 @@
 }
 .clock {
   background-color: #ffffff;
-  width: 45%;
-  height: 80%;
+  width: 500px;
+  height: 500px;
   align-self: center;
   border-radius: 10000px;
   position: relative;
@@ -111,4 +111,11 @@
   display: flex;
   justify-content: center;
   gap: 10px;
+}
+
+@media (max-width: 900px) {
+  .clock {
+    height: 300px;
+    width: 300px;
+  }
 }
